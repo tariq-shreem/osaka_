@@ -1,0 +1,99 @@
+:root{
+    --mainColor:#ff206e;
+}
+.main-color{
+    color:var(--mainColor);
+}
+
+.color-box{
+    position: fixed;
+    top:200px;
+    left:0;
+    display: flex;
+}
+
+.color-box .color-options{
+    background-color: aqua;
+    padding:10px;
+    border:3px solid yellow;
+}
+
+.color-box i {
+    border:3px solid yellow;
+
+    background-color:#e2e2e2;
+    padding:10px;
+    height:fit-content
+}
+
+.color-options li {
+    width:25px;
+    height:25px;
+    background-color: orange;
+    display: inline-block;
+}
+header{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.social-media i {
+    border:1px solid #333;
+    padding:8px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.social-media i:hover {
+
+    color:var(--mainColor);
+    border:1px solid #f1f1f1;
+}
+
+.title h2{
+ 
+    font-size:70px;
+    color:#f1f1f1;
+    letter-spacing: 5px;
+}
+
+.title h3{
+    position: absolute;
+    font-size:40px;
+    top:50%;
+    left:50%;
+    letter-spacing: 5px;
+}
+
+.services{
+    background-image: url('../img/dark_dot.jpg');
+}
+
+.services .title h2{
+    color:#222;
+}
+
+.services .title h3{
+    color:#fff;
+}
+
+.services i {
+    background-color:#000;
+    color:#fff;
+    padding:10px;
+    border-radius:50%;
+    border: solid #fff;
+    transition: all 1s;
+}
+
+.services i:hover{
+    color:var(--mainColor);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--mainColor);
+}
+
+.nav-tabs .nav-link{
+    color:#000;
+}
